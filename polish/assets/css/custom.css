@@ -1,0 +1,76 @@
+.uk-button-text-red-thick {
+    /* 1 */
+    padding: 0;
+    line-height: 1.5;
+    background: none;
+    /* 2 */
+    color: #333;
+    position: relative;
+  }
+  .uk-button-text-red-thick::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    border-bottom: 3px solid #ed1c24 !important;
+    transition: right 0.3s ease-out;
+  }
+  /* Hover + Focus */
+  .uk-button-text-red-thick:hover,
+  .uk-button-text-red-thick:focus {
+    color: #333;
+  }
+  .uk-button-text-red-thick:hover::before,
+  .uk-button-text-red-thick:focus::before {
+    right: 0;
+  }
+  /* Disabled */
+  .uk-button-text-red-thick:disabled {
+    color: #999;
+  }
+  .uk-button-text-red-thick:disabled::before {
+    display: none;
+  }
+
+  .uk-button-text-red {
+    /* 1 */
+    padding: 0;
+    line-height: 1.5;
+    background: none;
+    /* 2 */
+    color: #333;
+    position: relative;
+  }
+  .uk-button-text-red::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    border-bottom: 1px solid #ed1c24 !important;
+    transition: right 0.3s ease-out;
+  }
+  /* Hover + Focus */
+  .uk-button-text-red:hover,
+  .uk-button-text-red:focus {
+    color: #333;
+  }
+  .uk-button-text-red:hover::before,
+  .uk-button-text-red:focus::before {
+    right: 0;
+  }
+  /* Disabled */
+  .uk-button-text-red:disabled {
+    color: #999;
+  }
+  .uk-button-text-red:disabled::before {
+    display: none;
+  }
+
+  .uk-text-white {
+      color: #ffffff !important;
+  }
+
+
+  
