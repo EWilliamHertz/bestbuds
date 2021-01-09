@@ -1,3 +1,18 @@
+
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+iframe {
+  text-align: center;
+}
+
 .uk-button-text-red-thick {
     /* 1 */
     padding: 0;
@@ -71,6 +86,5 @@
   .uk-text-white {
       color: #ffffff !important;
   }
-
 
   
