@@ -13,6 +13,8 @@ iframe {
   text-align: center;
 }
 
+
+
 .uk-button-text-red-thick {
     /* 1 */
     padding: 0;
@@ -46,6 +48,11 @@ iframe {
   }
   .uk-button-text-red-thick:disabled::before {
     display: none;
+  }
+
+  .ukactivecenter {
+    position: absolute;
+    position: center;
   }
 
   .uk-button-text-red {
