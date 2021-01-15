@@ -1,3 +1,20 @@
+
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+iframe {
+  text-align: center;
+}
+
+
+
 .uk-button-text-red-thick {
     /* 1 */
     padding: 0;
@@ -31,6 +48,11 @@
   }
   .uk-button-text-red-thick:disabled::before {
     display: none;
+  }
+
+  .ukactivecenter {
+    position: absolute;
+    position: center;
   }
 
   .uk-button-text-red {
@@ -71,6 +93,5 @@
   .uk-text-white {
       color: #ffffff !important;
   }
-
 
   
